@@ -36,3 +36,5 @@ python tweet_radio.py 'hurricane' Ralph
 * Trinoids
 * Whisper
 * Zarvox
+
+(thanks to http://bit.ly/XWWKEA)
