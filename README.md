@@ -13,12 +13,14 @@ python tweet_radio.py 'hurricane' Ralph
 * Kathy 
 * Princess 
 * Vicki 
-* Victoria 
+* Victoria
+
 #### Male Voices
 * Bruce
 * Fred
 * Junior
 * Ralph
+
 #### Novelty Voices
 * Albert
 * "Bad News"
