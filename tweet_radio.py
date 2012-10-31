@@ -15,3 +15,6 @@ with tweetstream.SampleStream('username','pass') as stream:
 			if sys.argv[1] in tweet['text']:
 				commands.getstatusoutput('say %s' % tweet_stripped) 
 				time.sleep(1)
+
+
+				
