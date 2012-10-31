@@ -7,7 +7,7 @@ import sys
 punctre = re.compile('[!"#$%&\'()*+,-/:;<=>?@[\\]^_`{|}~]')
 urlre = re.compile('(?P<url>https?://[^\s]+)')
 
-with tweetstream.SampleStream('username','pass') as stream:
+with tweetstream.SampleStream('jerilynch','gracie') as stream:
 	for tweet in stream:
 		if 'text' in tweet:
 			tweet_stripped = urlre.sub('',tweet['text'])
