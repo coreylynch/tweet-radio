@@ -13,8 +13,12 @@ with tweetstream.SampleStream('username','pass') as stream:
 			tweet_stripped = urlre.sub('',tweet['text'])
 			tweet_stripped = punctre.sub('',tweet_stripped)
 			if sys.argv[1] in tweet['text']:
-				commands.getstatusoutput('say %s' % tweet_stripped) 
-				time.sleep(1)
+				if sys.argv[2] == '':
+					commands.getstatusoutput('say %s' % tweet_stripped) 
+					time.sleep(1)
+				else:
+					commands.getstatusoutput('say -v %s %s' % (sys.argv[2], tweet_stripped))
+					time.sleep(1)
 
 
 				
